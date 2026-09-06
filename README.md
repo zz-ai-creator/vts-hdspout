@@ -16,7 +16,7 @@
 
 ### 安装方式
 
-1. 下载并解压 `VTS_HDOutput` 发布包。
+1. 下载并解压 `[VTS_HDOutput](https://github.com/zz-ai-creator/vts-hdspout/releases/download/v0.0.1/VTS_HDOutput-0.1.0-installer.zip)` 发布包。
 2. 如果 VTube Studio 安装在默认 Steam 路径，双击运行：
 
 ```text
@@ -71,7 +71,7 @@ uninstall-vts-hdoutput.bat "D:\SteamLibrary\steamapps\common\VTube Studio"
 
 ### Install
 
-1. Download and extract the `VTS_HDOutput` release package.
+1. Download and extract the `[VTS_HDOutput](https://github.com/zz-ai-creator/vts-hdspout/releases/download/v0.0.1/VTS_HDOutput-0.1.0-installer.zip)` release package.
 2. If VTube Studio is installed in the default Steam path, double-click:
 
 ```text
