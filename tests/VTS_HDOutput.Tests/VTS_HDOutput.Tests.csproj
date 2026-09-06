@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.0.2" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\VTS_HDOutput\Core\OutputPreset.cs" Link="Core\OutputPreset.cs" />
+    <Compile Include="..\..\src\VTS_HDOutput\Core\CompositionMath.cs" Link="Core\CompositionMath.cs" />
+    <Compile Include="..\..\src\VTS_HDOutput\Core\RenderCadence.cs" Link="Core\RenderCadence.cs" />
+    <Compile Include="..\..\src\VTS_HDOutput\Core\OutputTransport.cs" Link="Core\OutputTransport.cs" />
+    <Compile Include="..\..\src\VTS_HDOutput\Core\OutputFrameRate.cs" Link="Core\OutputFrameRate.cs" />
+    <Compile Include="..\..\src\VTS_HDOutput\Core\ToolbarLayout.cs" Link="Core\ToolbarLayout.cs" />
+  </ItemGroup>
+</Project>

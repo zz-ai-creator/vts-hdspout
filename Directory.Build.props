@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <VtsRoot>D:\steamapps\steamapps\common\VTube Studio</VtsRoot>
+    <VtsManaged>$(VtsRoot)\VTube Studio_Data\Managed</VtsManaged>
+    <BepInExCore>$(VtsRoot)\BepInEx\core</BepInExCore>
+  </PropertyGroup>
+</Project>
