@@ -53,7 +53,11 @@ uninstall-vts-hdoutput.bat "D:\SteamLibrary\steamapps\common\VTube Studio"
 
 卸载器会删除 `VTS_HDOutput` 插件文件和本插件配置文件，并保留 BepInEx，避免影响其他插件。
 
-**最后，将接收Spout的软件设定为指定分辨率，如在Shoost中使用4K，可以将分辨率设置为:3840x2160**
+### 设置方式
+
+安装插件后，打开 VTube Studio，选择所需的尺寸与分辨率，无需激活 VTube Studio 的 Spout2配置。
+
+将接收Spout的软件设定为指定分辨率，如在Shoost中使用4K，可以将分辨率设置为:3840x2160。
 
 ## English
 
@@ -108,4 +112,8 @@ uninstall-vts-hdoutput.bat "D:\SteamLibrary\steamapps\common\VTube Studio"
 
 The uninstaller removes the `VTS_HDOutput` plugin files and this plugin's config file. BepInEx is left installed so other plugins are not affected.
 
- **Finally, configure the software receiving the Spout feed to the desired resolution; for example, if using 4K in Shoost, you can set the resolution to 3840x2160.** 
+### Setup Instructions
+
+After installing the plugin, open VTube Studio and select your desired dimensions and resolution; there is no need to enable VTube Studio's Spout2 configuration.
+
+Finally, configure the software receiving the Spout feed to the desired resolution; for example, if using 4K in Shoost, you can set the resolution to 3840x2160.
